@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>AWT Lab</title>
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 
         <style>
             body {
-                font-family: 'Nunito', sans-serif;
+                font-family: 'Poppins', sans-serif;
             }
         </style>
     </head>
@@ -44,7 +44,6 @@
                         </g>
                     </svg>
                 </div>
-
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">

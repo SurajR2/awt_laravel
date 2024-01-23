@@ -1,6 +1,29 @@
 @extends('layouts.app')
 
 @section('content')
+
+
+<style>
+
+    #login_with_google_card{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:2em;
+    }
+    #google_button{
+        width:14rem;
+        border:3px;
+        box-shadow: 2px 2px gray;
+    }
+    #google_logo{
+        width: 30px
+    }
+
+
+</style>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -64,7 +87,15 @@
                                 @endif
                             </div>
                         </div>
+                        <hr/>
                     </form>
+                    <div id='login_with_google_card'> 
+                        <strong>  Continue With </strong>
+                        <a class='btn btn-light btn-lg ' id='google_button' href='/auth/redirect'> 
+                            <img src="{{asset('google.png')}}" id='google_logo'  alt="logo">        
+                            Google
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
