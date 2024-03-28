@@ -87,8 +87,8 @@
                                 @endif
                             </div>
                         </div>
-                        <hr/>
                     </form>
+                    <hr/>
                     <div id='login_with_google_card'> 
                         <strong>  Continue With </strong>
                         <a class='btn btn-light btn-lg ' id='google_button' href='/auth/redirect'> 
