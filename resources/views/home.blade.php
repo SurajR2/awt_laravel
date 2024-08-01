@@ -15,6 +15,14 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    <div class="mt-4">
+                        @if(Route::has('quiz.index'))
+                        <a href="{{ route('quiz.index')}}" class="btn btn-primary">
+                            {{ __('Start Quiz') }}
+                        </a>
+                        @endif
+                    </div>
                 </div>
             </div>
         </div>
